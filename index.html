@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cafe Delight</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@600;700&family=Roboto:wght@400;500&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header>
+        <div class="container header-flex">
+            <h1>Cafe Delight</h1>
+            <nav>
+                <ul>
+                    <li><a href="#menu">Menu</a></li>
+                    <li><a href="#gallery">Gallery</a></li>
+                    <li><a href="#specials">Specials</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                    <li><a href="https://www.google.com/maps" target="_blank">Find Us</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+    <main>
+        <section id="hero">
+            <div class="hero-content">
+                <h2>Welcome to <span>Cafe Delight</span></h2>
+                <p>Fresh brews, cozy vibes, and delicious treats await you.</p>
+                <a href="#menu" class="cta-btn">See Our Menu</a>
+            </div>
+        </section>
+        <section id="gallery" class="container">
+            <h2>Our Gallery</h2>
+            <div class="gallery">
+                <img src="images/img_1.jpeg" alt="Coffee_1">
+                <img src="images/img_2.jpeg" alt="Coffee_2">
+                <img src="images/img_3.jpeg" alt="Coffee_3">
+                <img src="images/img_4.jpeg" alt="Coffee_4">
+                <img src="images/img_5.jpeg" alt="Coffee_5">
+            </div>
+        </section>
+        <section id="menu" class="container">
+            <h2>Our Menu</h2>
+            <ul class="modern-list">
+                <li>Espresso</li>
+                <li>Cappuccino</li>
+                <li>Latte</li>
+                <li>Blueberry Muffin</li>
+                <li>Ham & Cheese Sandwich</li>
+            </ul>
+        </section>
+        <section id="specials" class="container">
+            <h2 class="animated-text">Today's Specials</h2>
+            <div class="table-responsive">
+                <table>
+                    <tr>
+                        <th>Item</th>
+                        <th>Description</th>
+                        <th>Price</th>
+                    </tr>
+                    <tr>
+                        <td>Mocha</td>
+                        <td>Rich chocolate & espresso</td>
+                        <td>$3.50</td>
+                    </tr>
+                    <tr>
+                        <td>Avocado Toast</td>
+                        <td>Fresh avocado on sourdough</td>
+                        <td>$4.00</td>
+                    </tr>
+                    <tr>
+                        <td>Carrot Cake</td>
+                        <td>Homemade, with cream cheese</td>
+                        <td>$2.50</td>
+                    </tr>
+                </table>
+            </div>
+            <button onclick="showSpecial()">Show Surprise Special</button>
+            <p id="specialMsg"></p>
+        </section>
+        <section id="contact" class="container">
+            <h2>Contact Us</h2>
+            <div class="contact-links">
+                <a href="mailto:info@cafedelight.com">
+                    <i class="fas fa-envelope"></i> <span>Email</span>
+                </a>
+                <a href="https://instagram.com" target="_blank">
+                    <i class="fab fa-instagram"></i> <span>Instagram</span>
+                </a>
+                <a href="https://facebook.com" target="_blank">
+                    <i class="fab fa-facebook-f"></i> <span>Facebook</span>
+                </a>
+                <a href="https://twitter.com" target="_blank">
+                    <i class="fab fa-twitter"></i> <span>Twitter</span>
+                </a>
+                <a href="https://www.google.com/maps" target="_blank">
+                    <i class="fas fa-map-marker-alt"></i> <span>Location</span>
+                </a>
+            </div>
+        </section>
+    </main>
+    <footer>
+        <p>&copy; 2025 Cafe Delight</p>
+    </footer>
+    <script src="script.js"></script>
+</body>
+</html>
